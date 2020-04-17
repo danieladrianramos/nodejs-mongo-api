@@ -35,7 +35,7 @@ describe('Posts', () => {
                     res.body.should.be.a('array');
                     done();
                 });
-        });
+        }).timeout(5000);
     });
 
     /*
@@ -57,7 +57,7 @@ describe('Posts', () => {
                     res.body.should.have.property('_id');
                     done();
                 });
-        });
+        }).timeout(5000);
     });
 
     /*
@@ -84,7 +84,7 @@ describe('Posts', () => {
                         done();
                     });
             });
-        });
+        }).timeout(5000);
     });
 
     /*
@@ -108,6 +108,6 @@ describe('Posts', () => {
                     done();
                 });
             });
-        });
+        }).timeout(5000);
     });
 });
