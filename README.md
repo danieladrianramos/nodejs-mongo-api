@@ -3,8 +3,12 @@ Skeleton for developing an API using NodeJS, Express and Mongoose. Set it up wit
 
 
 # Steps
-. Clone the repo
-. Run > npm install
-. Create the config folder
-. Create the files "default.json", "dev.json" and "test.json" using the template file "configDefault.js". Set the URL of your mongoDB here
-. Run > npm start
+* Clone the repo
+
+* Run > npm install
+
+* Create the config folder
+
+* Create the files "default.json", "dev.json" and "test.json" using the template file "configDefault.js". Set the URL of your mongoDB here
+
+* Run > npm start
